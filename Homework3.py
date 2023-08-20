@@ -10,5 +10,3 @@ for x in 종목들 :
     file = open('a.txt', 'a')
     file.write(soup.find_all('strong', id="_nowVal")[0].text + '\n')
     file.close()  
-    
-
