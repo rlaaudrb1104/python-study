@@ -17,4 +17,3 @@ print('현재가:' + soup.find_all('strong',id="_nowVal")[0].text)
 print('거래량:' + soup.find_all('span', id="_quant")[0].text) 
 #거래량 출력// 클래스로 찾고 싶으면 class_= // 띄어쓰기 되어있을 시 하나만 쓴다.
 #but 클래스는 유일하지 않으므로 여러개 나올 수 있다
-
