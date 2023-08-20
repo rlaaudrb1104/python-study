@@ -20,3 +20,6 @@ def 함수() :
 # 글자 중간에 변수넣기 >> f'글자{변수}글자'
 def  현재가(구멍) :
     데이터 = requests.get(f'https://finance.naver.com/item/sise.naver?code={구멍}')
+
+현재가('005930')
+현재가('066575')
