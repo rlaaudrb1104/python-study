@@ -17,9 +17,9 @@ driver.get('https://instagram.com')
 
 time.sleep(3)
 i = driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[1]/div/label/input')
-i.send_keys('01020370937')
+i.send_keys('아이디 입력')
 p = driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[2]/div/label/input')
-p.send_keys('@rudwo0937')
+p.send_keys('비밀번호 입력')
 l = driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[3]/button')
 l.click()
 
